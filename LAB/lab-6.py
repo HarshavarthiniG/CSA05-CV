@@ -1,5 +1,5 @@
 import cv2
-video = cv2.VideoCapture(r"C:\Users\Akhila\OneDrive\Desktop\ITA0510-LAB\video.mp4")
+video = cv2.VideoCapture(r"C:\Users\Harsha\OneDrive\Desktop\ITA0510-LAB\video.mp4")
 if not video.isOpened():
     print("Error opening video file")
     exit()
