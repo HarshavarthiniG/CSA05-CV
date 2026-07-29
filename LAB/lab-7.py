@@ -1,6 +1,6 @@
 import cv2
 cap = cv2.VideoCapture(0)
-if not cap.isOpened():
+if not cap.isOpened(): 
     print("Cannot open webcam")
     exit()
 print("Press 's' for Slow Motion")
